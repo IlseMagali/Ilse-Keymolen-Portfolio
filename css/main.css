@@ -38,4 +38,12 @@ header .navbar-default {
 .row-direction {
   display:flex;
   justify-content: space-around;
+  padding:20px;
 }
+
+.thumbnail {
+  margin-top:20px;
+}
+/*-- Navigation menu styles fin--*/
+
+/*-- Projects styles --*/
