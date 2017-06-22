@@ -100,9 +100,26 @@ header .navbar-default {
     font-weight: 300;
   }
 }
+
+/*-- About me styles --*/
+
+.container-col-about {
+  font-size: 1.5em;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+}
+
 /*-- Projects styles --*/
 .thumbnail {
   border:none;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color:#666666;
+  font-size: 3em;
 }
 .container-link-view {
   width:100%;
@@ -112,12 +129,23 @@ header .navbar-default {
   padding-bottom: 10px;
 
 }
-/*-- About me styles --*/
-
 .icon-color-git {
   color: #00C4FF;
 }
 
 .icon-color-eye {
   color: #6a3093;
+}
+
+.icon-color-mail {
+  color: #666666;
+}
+
+/*-- Contact styles --*/
+
+.container-contact-view {
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  font-size: 1.5em;
 }
