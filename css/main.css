@@ -1,11 +1,18 @@
-/*-- Tipografías --*/
+/*-- Tipography --*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*-- Tipography --*/
 body {
   box-sizing: border-box;
   width:100%;
   padding: 0;
   margin:0;
+}
+
+.section-title {
+  font-size:4em;
+  font-family: 'Oswald', sans-serif;
+  color:#666666;
 }
 
 /*-- Navigation menu styles --*/
@@ -17,12 +24,13 @@ header .navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a {
+  font-family: 'Oswald', sans-serif;
   color: white;  /* fallback for old browsers */
   color: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
   color: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover {
   border-bottom: 2px solid;
   color: #a044ff;
 }
@@ -39,7 +47,7 @@ header .navbar-default {
 
 .row-direction {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding:20px;
 }
 
@@ -68,7 +76,6 @@ header .navbar-default {
   top: 0;
   right: -5px;
   width: 2px;
-  /* Change colour of Cursor Here */
   background-color: white;
   z-index: 1;
   animation: flash 0.5s none infinite alternate;
@@ -94,3 +101,5 @@ header .navbar-default {
   }
 }
 /*-- Projects styles --*/
+
+/*-- About me styles --*/
