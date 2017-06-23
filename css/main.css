@@ -137,6 +137,10 @@ h3 {
   color: #6a3093;
 }
 
+.icon-color-download {
+  color: #6a3093;
+}
+
 .icon-color-mail {
   color: #666666;
 }
@@ -148,4 +152,25 @@ h3 {
   display:flex;
   justify-content: space-around;
   font-size: 1.5em;
+}
+
+.contact-mail {
+  font-size: 1em;
+}
+
+.contact-description {
+  font-size: 2em;
+}
+
+.button-download {
+  font-size: 1.5em;
+  color:#6a3093;
+  cursor:auto;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  color:white;
+  background-color:#666666;
 }
