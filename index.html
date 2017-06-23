@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <!--Navigation menu-->
@@ -17,13 +18,21 @@
         <div class="container">
           <div class="navbar-header">
               <img alt="Brand" src="assets/img/ilse-logo.png">
+              <button type="button" class="navbar-toggle collapsed blanco" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
           </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav pull-right">
             <li class="color-text-b"><a href="#inicio">Inicio</a></li>
             <li class="color-text-b"><a href="#acerca-de-mi">Acerca de mí</a></li>
             <li class="color-text-b"><a href="#proyectos">Proyectos</a></li>
             <li class="color-text-b"><a href="#contacto">Contacto</a></li>
           </ul>
+        </div>
         </div>
       </nav>
     </header>
@@ -182,6 +191,7 @@
       </section>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
