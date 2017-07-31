@@ -18,15 +18,15 @@
         <div class="container">
           <div class="navbar-header">
               <img alt="Brand" src="assets/img/ilse-logo.png">
-              <button type="button" class="navbar-toggle collapsed blanco" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed blanco" data-toggle="collapse" data-target="#collapsible-menu" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav pull-right">
+          <div class="collapse navbar-collapse navbar-right" id="collapsible-menu">
+          <ul class="nav navbar-nav">
             <li class="color-text-b"><a href="#inicio">Inicio</a></li>
             <li class="color-text-b"><a href="#acerca-de-mi">Acerca de mí</a></li>
             <li class="color-text-b"><a href="#proyectos">Proyectos</a></li>
@@ -49,18 +49,17 @@
       </section>
     </section>
     <!--Acerca de mí-->
-    <section class="container-fluid" id="acerca-de-mi">
+    <section class="back-nav-space" id="acerca-de-mi"></section>
+    <section class="container-fluid">
       <section class="row text-center">
         <section class="col-md-4">
           <h2 class="section-title"><span><img src="assets/img/barra.png"></span>Acerca de mí</h2>
         </section>
       </section>
       <section class="row">
-        <div class="col-md-1">
-        </div>
-        <div class="col-md-5 container-col-about">
+        <div class="col-md-8 col-md-offset-2">
           <div>
-            <p class="text-right">
+            <p class="text-center">
               Soy <b>Ilse Keymolen</b>, diseñadora y comunicadora visual, así como front-end web developer jr., en continuo
               proceso de aprendizaje y descubrimiento. A través de incursionar en el mundo de la tecnología, busco colaborar en
               diversos proyectos junto con profesionales de distintas áreas, con el fin de generar servicios de calidad
@@ -74,15 +73,24 @@
             <a href="https://www.linkedin.com" target="_blank"></i><i class="fa fa-linkedin icon-color-eye fa-3x" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="col-md-5 column-direction">
-          <div class="row">
-            <img class="img-responsive" src="assets/img/abilities.png" alt="">
-          </div>
-        </div>
+        </section>
       </section>
     </section>
+    <!--Habilidades-->
+    <section class="back-nav-space" id="habilidades"></section>
+    <section class="container-fluid">
+      <section class="row text-center">
+        <section class="col-md-4">
+          <h2 class="section-title"><span><img src="assets/img/barra.png"></span>Habilidades</h2>
+        </section>
+      </section>
+      <div class="row">
+        <img class="img-responsive center-block" src="assets/img/skills-horiz.png" alt="">
+      </div>
+    </section>
     <!--Proyectos Front-End-->
-    <section class="container-fluid" id="proyectos">
+    <section class="back-nav-space" id="proyectos"></section>
+    <section class="container-fluid">
       <section class="row text-center">
         <section class="col-md-4">
           <h2 class="section-title"><span><img src="assets/img/barra.png"></span>Proyectos</h2>
@@ -96,7 +104,8 @@
             <img src="assets/img/textile.png" alt="...">
             <div class="caption">
               <h3>Textiles Castell</h3>
-              <p>Diseño de sitio web para empresa mexicana de textiles.</p>
+              <p>Diseño de sitio web para empresa mexicana de textiles elaborado con el uso de HTML 5, CSS3 y Jquery. Realicé una investigación
+              referente a la fábrica de textiles en México para desarrollar un concepto de ésta y construir su sitio.</p>
               <div class="container-link-view">
                 <a href="https://ilsemagali.github.io/textiles-castell/" target="_blank"><i class="fa fa-github icon-color-git fa-2x" aria-hidden="true"></i></a>
                 <a href="https://ilsemagali.github.io/textiles-castell/" target="_blank"><i class="fa fa-eye icon-color-eye fa-2x" aria-hidden="true"></i></a>
@@ -109,7 +118,8 @@
               <h3>¡Alértate!</h3>
               <p>
                 App móvil como proyecto colaborativo para alertarte sobre las zonas de riesgo,
-                si piensas recorrer alguna parte de la ciudad, según tu ubicación. Proyecto elaborado en
+                si piensas recorrer alguna parte de la ciudad, según tu ubicación. Para la realizaciòn de este proyecto,
+                utilicé HTML5, CSS3 y Javascript, así como el uso de API de geolocalización de <i>GoogleMaps</i>. Proyecto elaborado en
                 colaboración con superNovas.
               </p>
               <div class="container-link-view">
@@ -123,7 +133,9 @@
             <img src="assets/img/a-comer.png" alt="...">
             <div class="caption">
               <h3>¡A comer!</h3>
-              <p>Aplicación web que ubica al usuario y a los restaurantes cercanos para ir a comer.</p>
+              <p>Aplicación web que ubica al usuario y a los restaurantes cercanos para ir a comer. Para su realización, utilicé
+                HTML5, el framework de <i>Materialize</i>, CSS3 y JavaScript, así como el uso de API de geolocalización de <i>GoogleMaps</i>.
+              </p>
               <div class="container-link-view">
                 <a href="https://github.com/IlseMagali/B-squeda-de-comida" target="_blank"><i class="fa fa-github icon-color-git fa-2x" aria-hidden="true"></i></a>
                 <a href="https://ilsemagali.github.io/B-squeda-de-comida/" target="_blank"><i class="fa fa-eye icon-color-eye fa-2x" aria-hidden="true"></i></a>
@@ -134,7 +146,8 @@
             <img src="assets/img/lyft.png" alt="...">
             <div class="caption">
               <h3>Lyft México</h3>
-              <p>Propuesta de diseño y funcionalidad para aplicación móvil basada en Lyft USA en colaboración con superNovas</p>
+              <p>Propuesta de diseño y funcionalidad para aplicación móvil basada en Lyft USA, los recursos que utilicé fueron HTML5,
+                CSS3, así como Javascript para la funcionalidad de la navegación. Este proyecto fue realizado en colaboración con superNovas</p>
               <div class="container-link-view">
                 <a href="https://github.com/IlseMagali/taxi-en-corto-app" target="_blank"><i class="fa fa-github icon-color-git fa-2x" aria-hidden="true"></i></a>
                 <a href="https://ilsemagali.github.io/taxi-en-corto-app/views/home.html" target="_blank"><i class="fa fa-eye icon-color-eye fa-2x" aria-hidden="true"></i></a>
@@ -147,7 +160,8 @@
             <img src="assets/img/lab-car.png" alt="...">
             <div class="caption">
               <h3>LabCar - Taxi Hiring</h3>
-              <p>Propuesta de diseño de sitio web para pedir taxi dependiendo de tu ubicación.</p>
+              <p>Propuesta de diseño de sitio web para pedir taxi dependiendo de tu ubicación. Fue desarrollado con el uso del framework
+              <i>Bootstrap</i>, utilizando HTML5 y CSS3. Llevé acabo también una versión móvil de este proyecto con <i>media queries</i> en CSS3.</p>
               <div class="container-link-view">
                 <a href="https://github.com/IlseMagali/Labcar-proyecto" target="_blank"><i class="fa fa-github icon-color-git fa-2x" aria-hidden="true"></i></a>
               </div>
@@ -157,7 +171,8 @@
       </section>
     </section>
     <!--Contacto -->
-    <section class="container-fluid" id="contacto">
+    <section class="back-nav-space" id="contacto"></section>
+    <section class="container-fluid">
       <section class="row text-center">
         <section class="col-md-4">
           <h2 class="section-title"><span><img src="assets/img/barra.png"></span>Contacto</h2>
