@@ -15,6 +15,11 @@ body {
   color:#666666;
 }
 
+.back-nav-space {
+  height: 40px;
+  width: 100%;
+}
+
 /*-- Navigation menu styles --*/
 
 header .navbar-default {
@@ -24,10 +29,9 @@ header .navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a {
+  font-size: 1.5em;
   font-family: 'Oswald', sans-serif;
   color: white;  /* fallback for old browsers */
-  color: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
-  color: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -173,4 +177,22 @@ footer {
   padding-top: 15px;
   color:white;
   background-color:#666666;
+}
+
+/*-- Responsive menu --*/
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .nav>li>a {
+    text-align: center;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+
+    border-bottom: none;
+  }
+  #collapsible-menu{
+    background:rgba(0, 0, 0, 0.5);
+  }
 }
