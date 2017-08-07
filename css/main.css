@@ -196,3 +196,40 @@ footer {
     background:rgba(0, 0, 0, 0.5);
   }
 }
+/*-- Modals styles--*/
+button {
+  background:none;
+  border:none;
+}
+.button-container {
+  display:flex;
+  justify-content: flex-end;
+}
+.btn-modal {
+  color: #6a3093;
+  background-color: none;
+}
+.btn-modal:focus {
+  outline:none;
+}
+.modal-title {
+  font-size:2em;
+  font-family: 'Oswald', sans-serif;
+  color:#666666;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-body{
+  width: 100%;
+  height: 100vh;
+}
+.modal-body>img {
+  width: 100%;
+}
+.modal-text{
+  padding:20px;
+}
+.modal-image{
+  margin-bottom: 20px;
+}
