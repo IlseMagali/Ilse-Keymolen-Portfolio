@@ -54,12 +54,11 @@ $(document).ready(function(){
     }
   });
   // Collapsible menu
-  $("#collapsible-menu").on("click", function(){
-    $("#collapsible-menu").attr("aria-expanded")= "false";
-  })
-  // Now to start autoTyping just call the autoType function with the
-  // class of outer div
-  // The second paramter is the speed between each letter is typed.
-  autoType(".type-js",100);
+  $("collapsible-menu").collapse();
 
+  $('.navbar-collapse ul li a').click(function(){
+            $('.navbar-toggle:visible').click();
+    });
+
+  autoType(".type-js",100);
 });
